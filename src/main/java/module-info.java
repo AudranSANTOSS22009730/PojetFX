@@ -3,6 +3,8 @@ module com.example.pojetfx {
     requires javafx.fxml;
 
 
-    opens com.example.pojetfx to javafx.fxml;
-    exports com.example.pojetfx;
+    opens com.example.projetfx to javafx.fxml;
+    exports com.example.projetfx;
+    exports com.example.partie1;
+
 }
